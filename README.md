@@ -11,4 +11,6 @@ This website is about #### Newsletter.
  3. Responsive Flex
 4.  CSS Grid
 5. [View Website](https://saiemhossain.github.io/Newsletter/![enter image description here](https://github.com/Saiemhossain/Newsletter/blob/main/coverpic.png?raw=true))
-[enter image description here](https://github.com/Saiemhossain/Newsletter/blob/main/coverpic.png?raw=true))
+
+
+![enter image description here](https://github.com/Saiemhossain/Newsletter/blob/main/coverpic.png?raw=true)

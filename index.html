@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-wrapper">
+      <div class="logo"><h2>News.</h2></div>
+      <nav>
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Newsletter</a>
+        <!-- dropdown Style -->
+     <div class="dropdown">
+        <a href="#" class="dropdown-link">Solutions</a>
+        <div class="dropdown-content">
+          <a href="#" class="nav-link">Taxi Solution</a>
+          <a href="#" class="nav-link">Gps Solution</a>
+          <a href="#" class="nav-link">Fleet Solution</a>
+        </div>
+     </div>
+        <a href="https://google.com" target="_blank"><i class='bx bxl-google'></i></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="newsletter">
+    <div class="container newsletter-wrapper">
+        <div class="form-content">
+          <img src="tea.jpg" alt="tea">
+        </div>
+        <div class="form-wrapper">
+          <form action="https://formspree.io/f/mgegldqq"
+  method="POST">
+         <div class="form-wrapper-content">
+            <h2>Subscribe to our newsletter</h2>
+         </div>
+         <!-- UserName -->
+           <div class="form-wrapper-username">
+            <input type="text" name="name" placeholder="Eg.John">
+          <i class='bx bxs-user'></i>
+           </div>
+            <!-- User Email -->
+            <input type="email" name="email" placeholder="Eg.example@example.com">
+            <!-- User  Message -->
+            <textarea class="form-message" name="message" cols="30" rows="10" placeholder="Hi there..."></textarea>
+            <input type="submit" class="submit" value="Send message">
+          </form>
+        </div>
+    </div>
+    </section>
+  </main>
+</body>
+</html>
